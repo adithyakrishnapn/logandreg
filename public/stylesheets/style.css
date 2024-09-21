@@ -21,6 +21,13 @@ h2 {
   color: #333;
 }
 
+h3 {
+  text-align: center;
+  color: #007bff;
+  font-weight: 600;
+  font-size: 23px;
+}
+
 label {
   font-weight: bold;
   margin-top: 1rem;
