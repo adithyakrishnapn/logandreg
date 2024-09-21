@@ -1,0 +1,21 @@
+{{#if ch}}
+<script>
+    alert("Already registered");
+</script>
+{{/if}}
+<section>
+    <form action="/register" method="POST">
+
+    <label>Username</label><br>
+    <input type="text" placeholder="Username" name="name" required><br>
+
+    <label>Mail</label><br>
+    <input type="email" placeholder="Mail Id" name="mail" required><br>
+
+    <label>Password</label><br>
+    <input type="password" placeholder="Password" name="password" required><br>
+
+    <input type="submit">
+
+    </form>
+</section>
